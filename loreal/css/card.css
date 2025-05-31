@@ -1,0 +1,132 @@
+*{
+    font-size: 15px;
+}
+
+.cards{
+    position: absolute;
+    display: flex;
+    column-gap: 15px;
+    bottom: -30%;
+    right: 0;
+}
+.card{
+    width: 184px;
+    height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgb(180, 180, 180) ;
+    text-align: center;
+    padding: 10px;
+    transition: background-color .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cardimg{
+    height: 50%;
+}
+.cardword{
+    height: 1fr;
+}
+.cardbottom{
+    
+}
+.card:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.himg{
+    height: 140px;
+    object-fit: cover;
+    margin-top: 70px;
+}
+.vimg{
+    height: 230px;
+    object-fit: cover;
+}
+.prodname{
+    font-size: 10px;
+    font-weight: 600;
+}
+.proddesc{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.rating{
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+}
+.star{
+    width: 12px;
+    object-fit: contain;
+}
+.viewprod{
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 750;
+}
+
+.toolcard{
+    height: 440px;
+    width: 180px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.toolimg{
+    margin-top: 15px;
+    width: 85%;
+    color: rgb(237, 224, 224);
+}
+.genius{
+    margin-top: 15px;
+    width: 88px;
+}
+.dgenius{
+    margin-top: 25px;
+    width: 70px;
+    margin-bottom: 6px;
+}
+.toolp1{
+    font-size: 13px;
+}
+.toolp2{
+    margin-top: 10px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.toolp3{
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.explorecards{
+    margin-left: 10%;
+    display: flex;
+    column-gap: 15px;
+}
+.exppara1{
+    font-size: 19px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.exppara2{
+    font-size: 35px;
+    margin-bottom: 200px;
+}
+.exppara3{
+    font-size: 9px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 10px;
+}

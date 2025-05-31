@@ -1,0 +1,14 @@
+<input type="text" id="inp1" >
+<input type="text" id="inp2" >
+<button onclick="add()">+</button>
+<p id="res">Result....</p>
+<script>
+    var ip1=document.getElementById("inp1")
+    var ip2=document.getElementById("inp2")
+    var result=document.getElementById("res")
+    function add(){
+        var ip1v=Number(ip1.value)
+        var ip2v=Number(ip2.value)
+        result.textContent=ip1v+ip2v
+    }
+</script>

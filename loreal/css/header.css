@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headbg{
+    width: 100%;
+    height: 570px;
+    object-fit: cover;
+    /* position: relative; */
+    overflow: inherit;
+}
+.head{
+    padding: 2%;
+    height: 13%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.head:hover{
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0% 15%;
+    margin-top: 2%;
+}
+.logo{
+    margin-left: 42%;
+    width: 14%;
+    
+}
+.navbar li{
+    list-style-type: none;
+    /* flex-shrink: noshrink; */
+    color: rgb(246, 208, 137);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    transition: color .15s;
+}
+.navbar li:hover{
+    color: rgb(168, 165, 165);
+}

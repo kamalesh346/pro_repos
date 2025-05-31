@@ -1,0 +1,84 @@
+.article{
+    width: 420px;
+    /* position: absolute; */
+    margin-top: 4%;
+    margin-left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para1{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+}
+.para2{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.para3{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.see{
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.tools{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 32px 24px;
+    margin-top: 40px;
+    width: 100%;
+    height: 520px;
+    background-color: rgb(21, 20, 20);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    column-gap: 100px;
+    align-items: center;
+}
+.toolcards{
+    display: flex;
+    column-gap: 15px;
+    color: black;
+}
+.toolcards:hover{
+    cursor: pointer;
+}
+.toolwords{
+    width: 300px;
+    margin-left: 00px;
+}
+.tw1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.tw2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.tw3{
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 140px;
+}
+.explore{
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+}
+.explorewords{
+    width: 300px;
+    margin-left: 150px;
+    margin-right: 40px;
+    position: relative;
+}
+.discover{
+    margin-top: 4%;
+    height: 540px;
+    width: 100%;
+    background-color: black;
+}
