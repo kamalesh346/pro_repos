@@ -1,0 +1,17 @@
+<input type="text" id="inp">
+<button onclick="add()">ADD</button>
+<ul id="ulist">
+</ul>
+<script>
+    var inp=document.getElementById("inp")
+    var ul=document.getElementById("ulist")
+    function add(){
+        var plus=document.createElement("li")
+        plus.innerHTML=inp.value+"<button onclick='del(event)'> DELETE</button>"
+        ul.append(plus)
+        console.log(plus.textContent)
+    }
+    function del(event){
+        event.target.parentElement.remove()
+    }
+</script>

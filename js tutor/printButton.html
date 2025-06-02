@@ -1,0 +1,14 @@
+<h1 id="disp">Name</h1>
+<button onclick="show(event)" >kajol</button>
+<button onclick="show(event)" >kamal</button>
+<button onclick="show(event)" >punits</button>
+<script>
+    var out=document.getElementById("disp")
+    var bn1=document.getElementById("btn1")
+    var bn2=document.getElementById("btn2")
+    var bn3=document.getElementById("btn3")
+    function show(event){
+        console.log(event)
+        out.textContent=event.target.textContent
+    }
+</script>

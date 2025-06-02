@@ -1,0 +1,10 @@
+<!-- using this functionality typewriting application could be developed -->
+<input type="text"id="inp" onkeyup="op()">
+<p id="out"></p>
+<script>
+    var inp=document.getElementById("inp")
+    var out=document.getElementById("out")
+    function op(){
+        out.textContent=inp.value
+    }
+</script>
